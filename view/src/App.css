@@ -1,0 +1,78 @@
+/* My styles */
+.span-app {
+	color: #fd6d0d;
+	font-weight: bolder;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+.app h1 {
+	margin-top: 10px;
+	font-size: 48px;
+}
+.add-todo-form {
+	margin-top: 20px;
+	width: 50%;
+}
+
+.add-todo-form input {
+	height: 50px;
+	margin-right: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	width: 81%;
+	padding: 0 2px 0 5px;
+}
+
+.add-todo-form button {
+	height: 50px;
+	margin-top: -5px;
+}
+
+.todo {
+	margin-top: 20px;
+	height: auto;
+	display: flex;
+	padding-right: 0;
+}
+
+.todo-list {
+	border: 1px solid #fd6d0d;
+	background-color: #f5decf;
+	width: 100%;
+}
+
+.todo-list p {
+	margin: 5px;
+	border: none;
+	width: 550px;
+	height: 40px;
+	padding: 0 2px 0 2px;
+	background-color: #f0e0d5;
+	padding-right: 0;
+}
+.form-text-input {
+	width: 78%;
+	height: 100%;
+	margin: 0 5px 0 5px;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 8px;
+}
+
+.btn {
+	margin-left: 4px;
+	padding-right: 0;
+	/* margin-top: -10px; */
+}
+
+#savebtn {
+	display: none;
+	width: 98%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
